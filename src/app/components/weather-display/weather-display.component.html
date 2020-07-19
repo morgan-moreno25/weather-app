@@ -1,0 +1,38 @@
+<main id="weather-display" >
+
+    <form id="city-search">
+        <label>City:</label>
+        <input [(ngModel)]='city' name="city" placeholder="Enter a city...">
+    
+        <button type="button" (click)="getWeather(city)">Search</button>
+    </form>
+
+    <div id="weather">
+        <section id="weather-gif">
+            <img src={{gifString}}>
+        </section>
+        <section id="weather-info">
+            <div class='info-group'>
+                <label>City Name:</label>
+                <p> {{ name }}</p>
+            </div>
+            <div class="info-group">
+                <label>Current Temp:</label>
+                <p> {{ temp }} </p>
+            </div>
+            <div class="info-group">
+                <label>High:</label>
+                <p> {{ high }} </p>
+            </div>
+            <div class="info-group">
+                <label>Low:</label>
+                <p> {{ low }}</p>
+            </div>
+            <div class='info-group'>
+                <label># of Clouds:</label>
+                <p> {{ clouds }}</p>
+            </div>
+        </section>
+    </div>    
+        
+</main>

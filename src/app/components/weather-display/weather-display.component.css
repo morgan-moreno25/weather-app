@@ -1,0 +1,102 @@
+#weather-display {
+    height: 100%;
+    width: 100%;
+    grid-area: weather;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 90%;
+    grid-template-areas:
+        "form"
+        "display";
+}
+#city-search {
+    grid-area: 'form';
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "label input"
+        "submit submit";
+}
+#city-search > label {
+    grid-area: label;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+    border: 1px solid var(--border);
+    text-align: center;
+    font-weight: bold;
+    background: var(--border);
+    color: white;
+}
+#city-search > input {
+    grid-area: input;
+    height: 100%;
+    width: 100%;
+    border: 1px solid var(--border);
+    text-align: center;
+    font-weight: bold;
+    background: var(--border);
+    color: white;
+}
+#city-search > button {
+    grid-area: submit;
+    height: 100%;
+    width: 100%;
+    border: 1px solid var(--border);
+    text-align: center;
+    font-weight: bold;
+    background: var(--border);
+    color: white;
+}
+#city-search > button:hover {
+    background: var(--secondary-background);
+}
+#weather {
+    height: 100%;
+    width: 100%;
+    grid-area: display;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 70%;
+    grid-template-areas:
+        "info"
+        "gif";
+}
+#weather-gif {
+    grid-area: gif;
+    border: 1px solid var(--border);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+#weather-gif > img {
+    height: 100%;
+    width: 100%;
+}
+#weather-info {
+    grid-area: info;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px sold var(--border);
+    justify-self: center;
+    align-self: center;
+}
+.info-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.info-group > label {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.info-group > p {
+    font-size: 16px;
+}
