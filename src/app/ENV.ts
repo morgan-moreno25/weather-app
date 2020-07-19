@@ -1,0 +1,2 @@
+export const WEATHER_API_KEY = '62f75c51172070e165b1f1e3ec9e590d';
+export const GIPHY_API_KEY = '6onci47Shnf9PQ68g8YzIwAZPaWJ7OQe';
