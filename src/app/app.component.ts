@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { WEATHER_API_KEY } from './ENV';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'weather-app';
+  title = 'Weather App';
 }
