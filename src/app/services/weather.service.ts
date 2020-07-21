@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs'
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { WEATHER_API_KEY } from '../ENV';
-import { Weather, WeatherResponse } from '../Types';
 
 @Injectable({
   providedIn: 'root'
