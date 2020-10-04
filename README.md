@@ -9,7 +9,7 @@ Weather App is a front-end application that allows a user to search for a city a
 ## Technology
 
 - Angular
-
+- Typescript
 
 ## What I Learned
 
