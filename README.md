@@ -1,27 +1,27 @@
-# WeatherApp
+# Weather App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
+Project inspired by [TheOdinProject](https://www.theodinproject.com)
 
-## Development server
+## What
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Weather App is a front-end application that allows a user to search for a city and get back the current weather data for that city along with a random gif determined by the description of the current weather.
 
-## Code scaffolding
+## Technology
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## What I Learned
 
-## Running unit tests
+By completing this project I gained experience with the following:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  - The Angular Framework
+  - Making calls to an external API
+    - OpenWeather
+    - GIPHY
+  - Displaying data received from an external API
+  
+  
+## LIVE
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+You can view a live demo of this application [here](https://morgan-moreno25.github.io/weather-app/)
